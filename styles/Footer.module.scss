@@ -1,0 +1,10 @@
+.wrapper{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    &__container{
+        height: 100%;
+        margin: 0 auto;
+        width: 65%;
+    }
+}
