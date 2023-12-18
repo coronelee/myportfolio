@@ -75,13 +75,13 @@ export default function WelcomeFrame() {
         <div className={styles.wrapper__contentContainer}>
           {clickHamb ? (
             <div className={styles.menuHamburger} onClick={() => clickMenuHam()}>
-              <a href='/#skills' onClick={() => clickMenuHam()}>
+              <a href='#skills' onClick={() => clickMenuHam()}>
                 Знания
               </a>
-              <a href='/#works' onClick={() => clickMenuHam()}>
+              <a href='#works' onClick={() => clickMenuHam()}>
                 Работы
               </a>
-              <a href='/#hireme' onClick={() => clickMenuHam()}>
+              <a href='#hireme' onClick={() => clickMenuHam()}>
                 Связь со мной
               </a>
             </div>
@@ -89,7 +89,7 @@ export default function WelcomeFrame() {
             <></>
           )}
           <h1>Привет! Это мое портфолио.</h1>
-          <a href='/#skills'>Приступить к просмотру. <span><FaArrowCircleDown /></span></a>
+          <a href='#skills'>Приступить к просмотру. <span><FaArrowCircleDown /></span></a>
         </div>
       </div>
     </>
